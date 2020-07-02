@@ -3,5 +3,5 @@
     hosts: instance-3
     tasks:
         -
-            name: 'Oneagent restart'
+            name: 'Oneagent start'
             command: service oneagent start
