@@ -1,0 +1,7 @@
+-
+    name: 'Play 2'
+    hosts: instance-3
+    tasks:
+        -
+            name: 'Oneagent stop'
+            command: service oneagent stop
