@@ -1,0 +1,7 @@
+-
+    name: 'CrashingJVM Start'
+    hosts: instance-3
+    tasks:
+        -
+            name: 'CrashJVM start'
+            command: java -jre /home/arnabsen291995_gmail_com/easytravel-2.0.0-x64/CrashingJVM.jar
