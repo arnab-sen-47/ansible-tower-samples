@@ -1,0 +1,7 @@
+-
+    name: 'CrashingJVM Stop'
+    hosts: instance-3
+    tasks:
+        -
+            name: 'CrashJVM stop'
+            command: kill -9 'ps -ef | grep 'CrashingJVM.jar' | grep -v 'grep' | awk '{ printf $2 }''
