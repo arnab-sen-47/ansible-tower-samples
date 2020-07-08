@@ -1,0 +1,6 @@
+     name: 'Start OneAgent'
+    hosts: chandra-acm-app
+    tasks:
+        -
+			name: Run a multiple shell commands
+			win_shell: Restart-Service "Dynatrace-OneAgent"
