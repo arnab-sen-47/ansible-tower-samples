@@ -1,7 +1,2 @@
--
-    name: 'Play 1'
-    hosts: instance-3
-    tasks:
-        -
-            name: 'Oneagent start'
-            command: service oneagent start
+-name: Run a multiple shell commands
+ win_shell: Restart-Service "Dynatrace-OneAgent"
