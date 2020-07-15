@@ -1,2 +1,6 @@
--name: Run a multiple shell commands
- win_shell: Restart-Service "Dynatrace-OneAgent"
+- name: Hello World Sample
+  hosts: all
+  tasks:
+    - name: Hello Message
+      debug:
+        msg: "Hello World!"
