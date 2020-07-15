@@ -1,5 +1,5 @@
 -
-    name: 'CrashingJVM Start'
+    name: 'Crash Start'
     hosts: instance-3
     tasks:
         -
