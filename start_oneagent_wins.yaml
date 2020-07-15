@@ -1,2 +1,2 @@
--name: Run a multiple shell commands
+-name: Run a multiple shell command
  win_shell: Restart-Service "Dynatrace-OneAgent"
